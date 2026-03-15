@@ -19,10 +19,12 @@ A continuación, se muestran los comandos curl adaptados para la terminal de Win
 1. Crear un producto (POST):
 curl -X POST http://localhost:3000/api/productos -H "Content-Type: application/json" -d "{\"name\":\"Lapicera\",\"price\":12.5}"
 
-2. Listar todos los productos (GET):
+
+
+3. Listar todos los productos (GET):
 curl http://localhost:3000/api/productos
 
-3. Obtener un producto por ID (GET):
+4. Obtener un producto por ID (GET):
 (Reemplazar <id> por el ID generado en el paso 1)
 
 curl http://localhost:3000/api/productos/<id>
